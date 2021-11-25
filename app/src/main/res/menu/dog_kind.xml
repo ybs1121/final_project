@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".PopupMenu">
+
+    <item android:id="@+id/Husky"
+        android:title="허스키"/>
+    <item android:id="@+id/Maltese"
+        android:title="말티즈"/>
+    <item android:id="@+id/Samoyed"
+        android:title="사모예드"/>
+    <item android:id="@+id/Shih_Tzu"
+        android:title="시츄"/>
+    <item android:id="@+id/Welsh_Corgi"
+        android:title="웰시코기"/>
+    <item android:id="@+id/Pomeranian"
+        android:title="포메라니안"/>
+</menu>

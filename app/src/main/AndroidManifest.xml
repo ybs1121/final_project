@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.final_project">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="분실 반려동물 게시판"
+        android:networkSecurityConfig="@xml/network_security_config"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".UserSearchActivity"
+            android:exported="true" />
+        <activity
+            android:name=".UserMainActivity"
+            android:exported="true" />
+        <activity
+            android:name=".UserInsertActivity"
+            android:exported="true" />
+        <activity
+            android:name=".UserDetailNoticeActivity"
+            android:exported="true" />
+        <activity
+            android:name=".UserNoticeActivity"
+            android:exported="true" />
+        <activity
+            android:name=".JoinActivity"
+            android:exported="true" />
+        <activity
+            android:name=".LoginActivity"
+            android:exported="true" />
+        <activity
+            android:name=".activity_search"
+            android:exported="true" />
+        <activity
+            android:name=".del_dialog"
+            android:exported="true" />
+        <activity
+            android:name=".DetailNoticeActivity"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".InsertActivity" />
+    </application>
+
+</manifest>
